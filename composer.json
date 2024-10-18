@@ -13,6 +13,9 @@
             "email": "haoran@trendspek.com"
         }
     ],
+    "scripts" : {
+        "build": "php -f src/make.php > public/index.html"
+    },
     "require": {
         "league/commonmark": "^2.5"
     }

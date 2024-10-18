@@ -8,7 +8,6 @@
     "sass": "^1.80.2"
   },
   "scripts": {
-    "web": "sass styles/main.scss public/main.css",
-    "make": "php -f src/make.php > public/index.html"
+    "build": "sass styles/main.scss public/main.css"
   }
 }
