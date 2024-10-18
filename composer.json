@@ -1,0 +1,19 @@
+{
+    "name": "trendspek/tech-test",
+    "description": "DevOps Tech Test",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Trendspek\\TechTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Haoran Un",
+            "email": "haoran@trendspek.com"
+        }
+    ],
+    "require": {
+        "league/commonmark": "^2.5"
+    }
+}

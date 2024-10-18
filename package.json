@@ -1,0 +1,14 @@
+{
+  "name": "tech-test",
+  "version": "1.0.0",
+  "description": "DevOps Tech Test",
+  "repository": "git@github.com:Trendspek/tech-test.git",
+  "author": "Haoran Un <haoran@trendspek.com>",
+  "dependencies": {
+    "sass": "^1.80.2"
+  },
+  "scripts": {
+    "web": "sass styles/main.scss public/main.css",
+    "make": "php -f src/make.php > public/index.html"
+  }
+}
