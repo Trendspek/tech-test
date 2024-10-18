@@ -2,7 +2,13 @@
 
 Welcome to the Trendspek DevOps Technical Test, Docker component.
 
-# Instructions
+
+
+----------------
+
+# Section 1: Docker 
+
+## Instructions
 
 Build a Docker container that serves the mini-app in this git repository, and provide HTTP access and SSH access.
 
@@ -13,6 +19,12 @@ When I run this test, I will run:
 
 
 I will then open http://localhost/index.html in my browser and expect to see the technical test.
+
+### Requirement 0:
+
+`git clone` this repository, update your copy with your changes, and then send us you code.
+
+**Important: Do not officially *fork* this repo, as it will allow other candidates to see your code!**
 
 ### Requirement 1:
 
@@ -26,9 +38,37 @@ Your Docker container **must** contain the files in the `public` directory.
 The final container should be running either Nginx or Apache as a web server (whichever you're more familiar with)
 The web root should point at `/public` and serve the files generated in the build process.
 
+-------------------
+
+# Section 2: Security
+
 ### Requirement 4:
 
-I want to be able to SSH into the Docker container. Update the Dockerfile accordingly.
+I want to be able to SSH into the Docker container. Update the Dockerfile accordingly. 
+Basic password/auth is fine--email these to us with your completed test.
+
+### Requirement 5:
+
+In your email, explain what you would do to keep this containerised application secure in production.
+
+----------------
+
+# Section 3: Infrastructure
+
+### Requirement 6
+
+I want to deploy this application to AWS for production. 
+
+* It needs redundancy
+* It needs to scale to handle load
+* It needs to be served quickly to customers in Australia, the Netherlands, and the United States (New York).
+
+Design the architecture for this application, and describe it to us.
+
+Ideally, send a diagram along with your technical test.
+
+Alternatively, send Infra-as-Code for your architecture.
+
 
 ----
 

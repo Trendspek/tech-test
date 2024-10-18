@@ -1,6 +1,7 @@
 {
     "name": "trendspek/tech-test",
     "description": "DevOps Tech Test",
+    "license": "UNLICENSED",
     "type": "project",
     "autoload": {
         "psr-4": {
